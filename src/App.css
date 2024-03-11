@@ -1,63 +1,71 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+
+body {
   background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
   min-height: 100vh;
+  font-family: 'Arial', sans-serif; /* Added a fallback font */
 }
-#root{
+
+#root {
   width: 100%;
   display: flex;
   justify-content: center;
-
 }
 
-.App{
-  width: 60%;
+.App {
+  width: 70%; /* Increased width for better readability */
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 5vh; /* Adjusted margin for better centering */
+}
+
+.heading {
+  font-size: 2rem; /* Using rem for better scalability */
+  color: #ff7f50; /* Changed to a lighter shade of orange */
+  font-weight: bold; /* Simplified font weight property */
+}
+
+.para {
+  font-size: 1.6rem; /* Using rem for better scalability */
+  color: #333; /* Darkened the text color */
+  margin-top: 1.5rem; /* Adjusted margin for better spacing */
+}
+
+.inp-box {
+  display: flex;
+  gap: 12px; /* Increased gap between elements */
+  align-items: center;
   margin-top: 3rem;
+  margin-bottom: 3rem;
+}
 
+.inp {
+  width: 80px; /* Increased input box width */
+  padding: 8px 12px; /* Increased padding for better visual appeal */
+  font-size: 1.4rem; /* Using rem for better scalability */
+  border: 2px solid #ff7f50; /* Added a border to input boxes */
+  border-radius: 6px; /* Increased border radius for a softer look */
 }
-.heading{
-  font-size: 24px;
-  font-size: 28px;
-  color: orangered;
-  font-weight: 900;
 
-}
-.para{
-  font-size: 20px;
-}
-.inp-box{
-display: flex;
-gap: 8px;
-align-items: center;
-margin-top: 3rem;
-margin-bottom: 3rem;
-}
-.inp{
-  width: 60px;
-  padding: 4px 7px;
-  font-size: 16px;
-
-}
-button{
-  padding: 6px 14px;
-  font-size: 16px;
-  background-color: orangered;
-  color: white;
+button {
+  padding: 8px 16px; /* Increased padding for better visual appeal */
+  font-size: 1.4rem; /* Using rem for better scalability */
+  background-color: #ff7f50; /* Matched button color with heading */
+  color: #fff; /* Changed text color to white for better contrast */
   border: none;
-  border-radius: 4px;
-
+  border-radius: 6px; /* Increased border radius for a softer look */
+  cursor: pointer; /* Added cursor pointer for better UX */
 }
-.para1{
+
+.para1 {
   padding-top: 2rem;
-  color: #1b1b1b;
-  line-height: 22px;
+  color: #444; /* Darkened the text color */
+  line-height: 1.6; /* Increased line height for better readability */
 }
