@@ -7,65 +7,56 @@
 body {
   background-image: linear-gradient(to top, #9181be 0%, #95d1f1 100%);
   min-height: 100vh;
-  font-family: 'Arial', sans-serif; /* Added a fallback font */
+  font-family: 'Arial', sans-serif;
 }
 
 #root {
-  width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100vh; /* Centering the content vertically */
 }
 
 .App {
-  width: 70%; /* Increased width for better readability */
+  width: 80%; /* Increased width for better readability */
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 5vh; /* Adjusted margin for better centering */
+  margin: 0 auto; /* Centering the container horizontally */
 }
 
 .heading {
-  font-size: 2rem; /* Using rem for better scalability */
-  color: #4393e7; /* Changed to a lighter shade of orange */
-  font-weight: bold; /* Simplified font weight property */
+  font-size: 2.5rem; /* Increased font size for emphasis */
+  margin-bottom: 1.5rem; /* Added some spacing between heading and paragraph */
 }
 
 .para {
-  font-size: 1.6rem; /* Using rem for better scalability */
-  color: rgb(10, 9, 9); /* Darkened the text color */
-  margin-top: 1.5rem; /* Adjusted margin for better spacing */
+  font-size: 1.6rem;
+  margin-bottom: 2rem; /* Increased margin for better separation */
 }
 
 .inp-box {
-  display: flex;
-  gap: 12px; /* Increased gap between elements */
-  align-items: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
+.inp,
+button {
+  padding: 10px 20px; /* Increased padding for better visual appeal */
+  font-size: 1.4rem;
+  border-radius: 8px;
+}
+
 .inp {
-  width: 80px; /* Increased input box width */
-  padding: 8px 12px; /* Increased padding for better visual appeal */
-  font-size: 1.4rem; /* Using rem for better scalability */
-  border: 2px solid #3bd4bf; /* Added a border to input boxes */
-  border-radius: 6px; /* Increased border radius for a softer look */
+  width: 100px; /* Adjusted input box width for better alignment */
 }
 
 button {
-  padding: 8px 16px; /* Increased padding for better visual appeal */
-  font-size: 1.4rem; /* Using rem for better scalability */
-  background-color: #3bd4bf; /* Matched button color with heading */
-  color: #fff; /* Changed text color to white for better contrast */
+  background-color: #3bd4bf;
+  color: #fff;
   border: none;
-  border-radius: 6px; /* Increased border radius for a softer look */
-  cursor: pointer; /* Added cursor pointer for better UX */
+  margin-left: 10px; /* Added margin for better spacing between input and button */
 }
 
 .para1 {
-  padding-top: 2rem;
-  color: #444; /* Darkened the text color */
-  line-height: 1.6; /* Increased line height for better readability */
+  color: #444;
+  line-height: 1.6;
 }
