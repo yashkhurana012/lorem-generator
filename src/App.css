@@ -28,13 +28,13 @@ body {
 
 .heading {
   font-size: 2rem; /* Using rem for better scalability */
-  color: #ff7f50; /* Changed to a lighter shade of orange */
+  color: #4393e7; /* Changed to a lighter shade of orange */
   font-weight: bold; /* Simplified font weight property */
 }
 
 .para {
   font-size: 1.6rem; /* Using rem for better scalability */
-  color: #333; /* Darkened the text color */
+  color: rgb(10, 9, 9); /* Darkened the text color */
   margin-top: 1.5rem; /* Adjusted margin for better spacing */
 }
 
@@ -50,14 +50,14 @@ body {
   width: 80px; /* Increased input box width */
   padding: 8px 12px; /* Increased padding for better visual appeal */
   font-size: 1.4rem; /* Using rem for better scalability */
-  border: 2px solid #ff7f50; /* Added a border to input boxes */
+  border: 2px solid #3bd4bf; /* Added a border to input boxes */
   border-radius: 6px; /* Increased border radius for a softer look */
 }
 
 button {
   padding: 8px 16px; /* Increased padding for better visual appeal */
   font-size: 1.4rem; /* Using rem for better scalability */
-  background-color: #ff7f50; /* Matched button color with heading */
+  background-color: #3bd4bf; /* Matched button color with heading */
   color: #fff; /* Changed text color to white for better contrast */
   border: none;
   border-radius: 6px; /* Increased border radius for a softer look */
